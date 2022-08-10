@@ -40,7 +40,6 @@ while i <= 10:
 
 
 
-
 i=1
 while i<=3:
     print(i)
