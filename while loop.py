@@ -41,18 +41,6 @@ while i <= 10:
 
 
 
-
-#this is copy to for loop
-# i = 1
-# for i in range(3):
-#     for j in range(3):
-#         print(i*'*')
-
-# i=1
-# while i<=3:
-#     print(i)
-#This will generate a loop without stopping.
-
 i=1
 while i<=3:
     print(i)
