@@ -1,0 +1,146 @@
+print('Hello world')
+
+#multiline strings
+print(''' Hi 
+            This shows 
+                    the code as 
+                                we write our code. 
+''')
+
+print('thisara\'s python world')
+
+#String concatination vs String formatting
+
+#String concatination
+first = 'John'
+last = 'Smith'
+message = first + ' [' + last + '] is a coder.'
+
+#String formatting
+msg = f'{first} [{last}] is a coder'
+print(message)
+print(msg)
+
+
+
+
+#power operater
+
+print(10**3)
+
+#Augmented assignment operater
+
+x=10
+x=10+3
+x+=3
+
+
+# This is a single line comment
+
+""" this is a 
+            multiline
+                      comment """
+
+print('Hello\' world')
+
+print("Hello\" world")
+
+a = "thisara"
+b = 'THISARA'
+
+print(a.upper())
+print(b.lower())
+
+print(a.islower())
+print(b.isupper())
+
+#replace
+print(a.replace("t", "k"))
+
+#split
+x = "hello,world"
+print(x.split(","))
+
+# USE INDEXES
+
+print(a[0])
+print(b[2])
+print(a[0:3])  # printing characters indexes 0, 1, 2 only
+
+t = '                   thisara               '
+print(t.strip())
+
+x = "thisara "
+print(x*10)
+
+#Conditional Statements
+
+x = 7
+
+if x>9:
+    print("x is %s" %x)
+else:
+    print("x is lower than 9")
+    print("x is %d" %x)
+
+#elif
+
+# mark1 = float(input("Enter marks of maths: "))
+#
+# mark2 = float(input("Enter marks of science: "))
+#
+# if mark1 + mark2 <= 45:
+#      print("fail")
+#
+# elif mark1 + mark2 >= 55:
+#      print("C")
+# elif mark1 + mark2 >= 65:
+#      print("B")
+# elif mark1 + mark2 >= 75:
+#      print("A")
+
+
+#Nested if else statements
+
+
+
+x = int(input("Please Enter a number: "))
+
+if x <0:
+    print("number is negative")
+else:
+    print("number is positive")
+    if(x%2==0):
+        print("number is even")
+    else:
+        print("number is odd")
+
+
+
+#List
+Item1 = "bread"
+Item2 = "cheese"
+Item3 = "drinks"
+Item4 = "fruits"
+
+Items =["bread", "cheese", "drinks", "drinks", "fruits"]
+print(Items[0])
+
+print(Items[0:3])
+
+
+print(Items[-1])
+
+Items.append("butter")
+
+print(Items)
+
+Items.insert(1,"coke")
+print(Items)
+
+name = input("Enter name: ")
+colour = input("Colour : ")
+print(name + " likes " + colour)
+
+x = -2.8
+print(round(x))
