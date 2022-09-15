@@ -1,4 +1,7 @@
 # Python_series_end-to-end
+This folder contains ADVANCED PYTHON. Python for Data Science. Including high perfomance libraries like TesorFlow.
+
+
 
 WhatsApp Message Automate.py 
   - in here first initialize environment path variable to 'python' and 'pip'.
