@@ -35,6 +35,8 @@ python Tuples and Lists interview questions
 05. What are python modules?
         Modules are simply files with the “. py” extension
 
+06. What is data lake explain?
+        A data lake is a centralized repository designed to store, process, and secure large amounts of structured, semistructured, and unstructured data.
 
 
 
