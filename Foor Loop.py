@@ -139,3 +139,16 @@ n = int(input('Enter the number of rows: '))
 # calling function
 pattern(n)
 
+#----------------------------------------------------------Exercise------------------------------------------------------------------#
+#Print all the even numbers in the list. 
+#numList = [2,4,6,8,3,4,2,1]
+#Expected output
+# [2,4,6,8]
+
+numList = [2,4,6,8,3,4,2,1]
+evenList = []
+
+for i in numList:
+  if (i%2==0) and (i not in evenList):
+    evenList.append(i)
+print(evenList)
