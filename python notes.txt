@@ -1,0 +1,45 @@
+
+
+
+01.
+what are the difference between list and tuple?
+
+	LISTS
+
+list is like an array of data. we can specify data inside the array. 
+
+same data type.
+
+dynamic feature is there. that mean we can add or remove items at anytime.
+
+lists are mutable. means adapt to change
+
+A list is initiated with the [ ] symbol. 
+
+	TUPLES
+
+tuple is also like an array of data. we can specify data inside the array. 
+
+not be in same data type. 
+
+we can specify different data types in tuples at once.
+tuples are immutable.
+
+A tuple is initiated with the () symbol. 
+
+02.
+what are the key features of python can you elaborate?
+
+	easy to use
+	free and open source
+	interpreted language
+	there are lot of documents we can identify when we have trouble.
+
+03.
+what is difference between local variable and gloabal variable in python?
+
+	local variables are defined inside of a particular function. 
+	so, we can use this variable only inside the particular function.
+
+	but global variables can use in entire programme. to define global variable 
+	we can use gloabal keyword with variable name. 
