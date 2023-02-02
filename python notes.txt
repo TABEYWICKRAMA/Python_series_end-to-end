@@ -8,7 +8,7 @@ what are the difference between list and tuple?
 
 list is like an array of data. we can specify data inside the array. 
 
-same data type.
+no be in same data type.
 
 dynamic feature is there. that mean we can add or remove items at anytime.
 
